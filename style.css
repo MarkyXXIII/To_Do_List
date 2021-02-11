@@ -106,7 +106,7 @@ select {
     -moz-appearance: none;
     appearance: none;
     outline: none;
-    border: none;
+    border: none;  
 }
 
 .select {
@@ -119,22 +119,22 @@ select {
     color: #1a1a1a(156, 156, 156);
     width: 10rem;
     cursor: pointer;
-    padding: 1rem;
+    padding: 1.2rem;
     margin: 1rem;
 }
 
-.select::after {
-    content: "\25BC";
-    position: absolute;
-    background: #ff6f47;
-    top: 0;
-    right: 0;
-    padding: 1rem;
-    pointer-events: none;
-    transition: all 0.3s ease;
+.filter-todo {
+    background-color: rgb(156, 156, 156);
 }
 
-.select:hover::after {
-    background: rgb(156, 156, 156);
-    color: #ff6f47;
+.select-wrapper .fa {
+    color: #1a1a1a;
+    position: relative;
+    right: 3rem;
+    z-index: 5;
+    pointer-events: none;
+}
+
+option {
+    transition: all 0.3s ease;
 }
