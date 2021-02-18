@@ -20,11 +20,14 @@
         <button class="todo-button" type="submit">
             <i class="fas fa-plus-square"></i>
         </button>
-        <select name="todos" class="filter-todo">
-            <option value="all">All</option>
-            <option value="completed">Completed</option>
-            <option value="uncompleted">Incomplete</option>
-        </select>
+        <div class="select-wrapper">
+            <select name="todos" class="filter-todo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Incomplete</option>
+            </select>
+        <i class="fa fa-chevron-down"></i>
+        </div>
     </form>
     <div class="todo-container">
         <ul class="todo-list"></ul>
