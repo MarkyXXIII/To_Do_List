@@ -7,7 +7,7 @@
 * [Project Status](#project-status)
 
 ## General info
-This simple to-do list is simple and clean. Utilizing JavaScript to create/remove HTML elements as needed, and some CSS animation to make the deleted boxes 'drop off'. List items can be checked off, and there is a dropdown menu to show all, completed and incomplete as desired.
+This simple to-do list is simple and clean. Utilizing JavaScript to create/remove HTML elements as needed, and some CSS animation to make the deleted boxes 'drop off'. List items can be checked off, and there is a dropdown menu to show all, completed and incomplete as desired. The list saves locally, so that you may safely close your browser tab without losing the list.
 
 ## Screenshots
 
